@@ -107,7 +107,7 @@ while not fin_del_juego:
         vidas -= 1
         if vidas == 0:
             fin_del_juego = True
-            print("Pierdes")
+            print("Pierdes, amigo mio ")  #editanto cambio para mi bash y github
             print(f'Pssst, la solución es {palabra_elegida}.')
 
     #con este if. vemos que la letra reemplazara a la posicion que pertenezca dentro de la lista display
